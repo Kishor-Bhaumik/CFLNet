@@ -157,7 +157,7 @@ for epoch in range(cfg['model_params']['epoch']):
             
             y_score = F.softmax(pred, dim=1)[:,1,:,:]
             
-            # auc code taken from:
+            # the following auc code is taken from:
             # https://github.com/ZhiHanZ/IRIS0-SPAN/blob/main/utils/metrics.py
             
             for yy_true, yy_pred in zip(tar.cpu().numpy(), y_score.cpu().numpy()):

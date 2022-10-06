@@ -7,9 +7,9 @@ from .aspp import build_aspp
 from .srm import setup_srm_layer
 
 
-class ConSegNet(nn.Module):
+class CFLNet(nn.Module):
     def __init__(self, cfg, inplanes):
-        super(ConSegNet, self).__init__()
+        super(CFLNet, self).__init__()
         self.cfg = cfg
         self.encoder = timm.create_model(self.cfg['model_params']['encoder'], pretrained= True, features_only=True, out_indices=[4])
         self.conv_srm = setup_srm_layer()

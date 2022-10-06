@@ -11,7 +11,7 @@ from sklearn import metrics
 import datetime
 import timm
 import yaml
-from model.model import ConSegNet
+from model.model import CFLNet
 from torch.optim.lr_scheduler import StepLR
 
 set_random_seed(1221)
@@ -38,7 +38,7 @@ gnr = generator(cfg)
 training_generator = gnr.get_train_generator()
 validation_generator = gnr.get_val_generator()
 
-model = ConSegNet(cfg, in_planes).to(device)
+model = CFLNet(cfg, in_planes).to(device)
 
 
 

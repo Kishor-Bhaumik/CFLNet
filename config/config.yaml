@@ -1,0 +1,22 @@
+global_params:
+    with_srm: True
+    with_con: True
+    
+model_params:
+    encoder: 'resnet50'
+    aspp_outplane: 512
+    num_class: 2
+    optimizer: 'adam'
+    lr: 0.0001
+    epoch: 100
+    con_alpha: 1
+
+dataset_params:
+    base_dir: '/home/forgery/'
+    batch_size: 4
+    patch_size: 4
+    im_size: 256
+    contrast_temperature: 0.1
+    mean: [0.485, 0.456, 0.406] 
+    std: [0.229, 0.224, 0.225]
+    imbalance_weight: [0.0892, 0.9108]  

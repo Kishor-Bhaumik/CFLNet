@@ -22,5 +22,5 @@ Step 3: To train the model run
   ```
 Step 4: To test the model run   
   ```shell
-  python trainer.py
+  python evaluate.py
   ```

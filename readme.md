@@ -20,3 +20,7 @@ Step 3: To train the model run
   ```shell
   python trainer.py
   ```
+Step 4: To test the model run   
+  ```shell
+  python trainer.py
+  ```

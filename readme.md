@@ -1,4 +1,6 @@
+# CFL-Net: Image Forgery Localization Using Contrastive Learning
 
+![CFL-Net](figure/archnew.png "Model Architecture")
 
 This is the official implementation of WACV-2023 paper by Fahim Faisal Niloy,Kishor Kumar Bhaumik,and Simon S. Woo \
 [CFL-Net: Image Forgery Localization Using Contrastive Learning](https://openaccess.thecvf.com/content/WACV2023/papers/Niloy_CFL-Net_Image_Forgery_Localization_Using_Contrastive_Learning_WACV_2023_paper.pdf).

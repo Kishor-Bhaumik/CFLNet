@@ -26,3 +26,13 @@ Step 4: To test the model run
   ```shell
   python evaluate.py
   ```
+
+Please Cite Our paper using:
+  ```shell
+@inproceedings{niloy2023cfl,
+  title={CFL-Net: image forgery localization using contrastive learning},
+  author={Niloy, Fahim Faisal and Bhaumik, Kishor Kumar and Woo, Simon S},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={4642--4651},
+  year={2023}}
+  ```
